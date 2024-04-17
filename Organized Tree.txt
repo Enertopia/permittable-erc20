@@ -1,0 +1,27 @@
+/permittable-erc20 
+|-- .github
+|   `-- workflows
+|       `-- nodejs.yml       # GitHub Actions for Node.js setup
+|-- contracts                # Smart contracts
+|   |-- RebalancingCryptoPortfolio.sol  # Solidity smart contracts
+|   `-- ERC20.sol
+|-- client                   # React web app
+|   |-- src
+|   |   |-- components       # React components
+|   |   |   |-- Balance.jsx
+|   |   |   |-- Transfer.jsx
+|   |   |   |-- Approve.jsx
+|   |   |   `-- History.jsx
+|   |   |-- App.jsx
+|   |   `-- index.jsx
+|   |-- public
+|   `-- package.json
+|-- scripts                  # Deployment scripts
+|   `-- deploy.js
+|-- test                     # Tests for the contracts
+|   `-- contract.test.js
+|-- node_modules
+|-- .gitignore
+|-- .env                     # Environment variables
+|-- package.json             # Node project settings
+`-- README.md                # Project README file

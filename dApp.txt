@@ -1,0 +1,31 @@
+Here is an outline for a basic dApp to interact with the custom ERC20 token contract:
+Custom ERC20 DApp
+
+This project contains a frontend interface for interacting with the custom ERC20 token contract.
+Contracts
+
+    CustomERC20.sol - The custom ERC20 implementation with errors and events.
+
+Frontend
+
+The frontend is built with:
+
+    React
+    Web3.js
+    Ethers.js
+
+It allows users to:
+
+    Connect wallet
+    View token balance
+    Transfer tokens
+    Approve spending allowance
+    View transfer history
+
+Components
+
+    App - Main app component to connect wallet and initialize contracts
+    Balance - Displays user's token balance
+    Transfer - Form to send tokens
+    Approve - Form to approve spending allowance
+    History - Displays transfers and approvals involving user
